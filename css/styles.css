@@ -1,1 +1,114 @@
-
+@font-face {
+    font-family: "Segoe UI Custom";
+    src: url("fonts/SEGOEUI.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI Custom", sans-serif;
+    background-color: #C5BCAB;
+    color: #4C3639;
+  }
+  
+  header {
+    background-color: #EBEBE0;
+    border-bottom: 2px solid #4C3639;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #4C3639;
+  }
+  
+  nav {
+    background-color: #63B4C9;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: medium;
+    color: #4C3639;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #EBEBE0;
+    border: 2px solid #4C3639;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .barista-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1 1 60%;
+    padding: 0 20px;
+  }
+  
+  .text-container p {
+    font-size: medium;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #EBEBE0;
+    border-top: 2px solid #4C3639;
+    padding: 10px;
+  }
+  
